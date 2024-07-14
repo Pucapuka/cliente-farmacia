@@ -2,7 +2,8 @@ package me.dio.farmacia.model;
 
 import jakarta.persistence.*;
 
-@Entity(name = "tb_cliente")
+@Entity
+@Table(name = "tb_cliente")
 public class Cliente {
 	
 	@Id

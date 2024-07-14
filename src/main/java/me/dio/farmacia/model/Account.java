@@ -2,13 +2,10 @@ package me.dio.farmacia.model;
 
 import java.math.BigDecimal;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-@Entity (name = "tb_account")
+@Entity
+@Table(name = "tb_account")
 public class Account {
 	
 	@Id
